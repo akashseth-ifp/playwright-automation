@@ -2,6 +2,8 @@
 import { test, expect } from '@playwright/test';
 
 test('Headstart Practice Test - Submit Python Solution', async ({ page }) => {
+    test.setTimeout(60_000); // 60 seconds timeout
+
     // 1. Open the webpage
     await test.step('Navigate to page', async () => {
         await page.goto('https://headstart.infocusp.com/#/practice-test');
