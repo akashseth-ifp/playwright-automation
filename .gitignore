@@ -1,3 +1,9 @@
+# .env
+.env
+
+# Editor
+.vscode/
+
 
 # Playwright
 node_modules/
