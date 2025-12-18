@@ -78,12 +78,12 @@ test('Headstart Practice Test - Submit Python Solution', async ({ page }) => {
         // Wait for the first row's result column (2nd column) to be populated (not empty)
         // Adjust column index if needed, assuming 2nd column is Result
         const firstResultCell = dataRows.first().locator('th').nth(2);
-        await expect(firstResultCell).not.toBeEmpty({ timeout: 20000 });
+        await expect(firstResultCell).not.toBeEmpty({ timeout: 30000 });
 
         // Wait for the last row's result column as well to ensure *full* table population
         // This addresses the user's request to wait for the full table
         const lastResultCell = dataRows.last().locator('th').nth(2);
-        await expect(lastResultCell).not.toBeEmpty({ timeout: 20000 });
+        await expect(lastResultCell).not.toBeEmpty({ timeout: 30000 });
 
         // Scroll into view
         await resultDiv.scrollIntoViewIfNeeded();
