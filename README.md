@@ -1,4 +1,4 @@
-### Playwright Automation
+# Playwright Automation
 
 This repository contains a set of Playwright automation that solve the programming questions on https://headstart.infocusp.com/#/practice-test using Python and finally takes a screenshot of the result.
 
@@ -28,5 +28,4 @@ Install dependencies:
 You will see a `headstart-result.png` file in the root directory.
 
 ### Demo
-
 ![Demo](./demo.gif)
