@@ -29,4 +29,4 @@ You will see a `headstart-result.png` file in the root directory.
 
 ### Demo
 
-https://github.com/akashseth-ifp/playwright-automation/blob/main/demo.mp4
+![Demo](./demo.gif)
